@@ -1,0 +1,39 @@
+.card {
+    max-width: 250px;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-background {
+    background-image: url('../images/backgrounds/card_background.png');
+    background-position: center;
+}
+
+.card-body {
+    background-color: #d8d8d8;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-table {
+    background-color: #40af22;
+    color: #fff;
+    text-align: center;
+}
+
+.card-table th:not(:last-child), .card-table td:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.card-table th, .card-table td {
+    width: 33%;
+    height: 30px;
+}

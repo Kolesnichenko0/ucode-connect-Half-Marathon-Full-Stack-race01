@@ -1,0 +1,11 @@
+body {
+    background-image: url('../images/backgrounds/login_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: rgba(233, 247, 239, 0.5);
+}

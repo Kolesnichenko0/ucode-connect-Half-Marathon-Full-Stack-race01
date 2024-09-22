@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/backgrounds/registration_background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+.card {
+    margin-bottom: 3rem;
+}
+
+.input-group-lg .form-control {
+    height: calc(1.5em + 1rem + 2px);
+}
+
+.input-group-append .btn {
+    height: 100%;
+}
