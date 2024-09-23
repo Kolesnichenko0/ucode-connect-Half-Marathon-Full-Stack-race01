@@ -51,11 +51,6 @@ searchGameBtn.addEventListener('click', () => {
     }
 });
 
-const logoutBtn = document.getElementById('logout');
-logoutBtn.addEventListener('click', () => {
-    sessionStorage.clear();
-});
-
 const backToLobbyButton = document.querySelectorAll('.back-to-lobby');
 backToLobbyButton.forEach(button => {
     const mainContainer = document.getElementById('main-container');
