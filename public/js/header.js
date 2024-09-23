@@ -1,3 +1,8 @@
+const logoutForm = document.getElementById('logoutForm');
+logoutForm.addEventListener('submit', () => {
+    sessionStorage.clear();
+});
+
 function updateUserIcon() {
     try {
         const userIconElement = document.getElementById('user-icon');
