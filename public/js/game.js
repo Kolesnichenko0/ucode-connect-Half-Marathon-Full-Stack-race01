@@ -218,6 +218,7 @@ socket.on('update-game-state', (data) => {
 
         const playerActiveCardsContainer = document.getElementById('player-board-row');
         playerActiveCardsContainer.innerHTML = '';
+        selectedPlayerCard = null;
         player.activeCards.forEach(card => {
             const cardElement = createCardElement(card);
             playerActiveCardsContainer.appendChild(cardElement);
@@ -241,6 +242,7 @@ socket.on('update-game-state', (data) => {
         const opponent = gameState.players.find(player => String(player.id) !== playerUserId);
         if (opponent) {
             renderOpponentData(opponent);
+            removeOpponentHighlights();
 
             const opponentActiveCardContainer = document.getElementById('opponent-board-row');
             opponentActiveCardContainer.innerHTML = '';
