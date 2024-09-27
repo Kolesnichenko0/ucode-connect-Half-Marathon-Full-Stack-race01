@@ -435,7 +435,7 @@ function createCard(character) {
                     <tr>
                         <th>Attack</th>
                         <th>Defense</th>
-                        <th>Price</th>
+                        <th>Cost</th>
                     </tr>
                     <tr>
                         <td>${character.attack}</td>
